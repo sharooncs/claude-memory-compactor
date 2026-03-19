@@ -1,0 +1,11 @@
+{
+  "name": "memory-compactor",
+  "description": "Automatically monitors MEMORY.md size and warns Claude to compact it when it grows too large. Installs a PostToolUse hook that fires after Write/Edit to memory/ directories.",
+  "version": "1.0.0",
+  "author": {
+    "name": "sharooncs"
+  },
+  "repository": "https://github.com/sharooncs/claude-memory-compactor",
+  "license": "MIT",
+  "keywords": ["memory", "compaction", "hooks", "auto-memory", "MEMORY.md"]
+}
